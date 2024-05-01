@@ -41,9 +41,16 @@
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
+    padding-top: 30px;
   }
   .about-containers {
     margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contact-info-upper-container {
+    flex-wrap: wrap;
   }
 }
 
@@ -99,5 +106,11 @@
   }
   .text-container {
     text-align: justify;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact-info-upper-container {
+    flex-wrap: wrap;
   }
 }
