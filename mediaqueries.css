@@ -11,9 +11,21 @@
   #projects {
     height: fit-content;
   }
+  #projects {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  #projects {
+    margin-top: 500px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
+  #projects {
+    margin-top: 100px;
+  }
   #desktop-nav {
     display: none;
   }
