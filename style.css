@@ -17,7 +17,7 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: #F6EEDF;
 }
 
 /* TRANSITION */
@@ -47,16 +47,16 @@ nav {
 }
 
 a {
-  color: black;
+  color: #F6EEDF;
   text-decoration: none;
   text-decoration-color: white;
 }
 
 .nav-links a:hover, .menu-links a:hover {
-  color: grey;
+  color: #f6eedfa1;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: #f6eedfa1;
 }
 
 .logo {
@@ -96,13 +96,13 @@ a {
 
 .menu-links {
   margin-top: 10px;
-  background-color: rgb(245, 245, 245);
+  background-color: #F6EEDF;
   border-radius: 10px;
   
   position: absolute;
   top: 100%;
   right: 0;
-  width: fit-content;
+  width: 200px;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
@@ -114,8 +114,12 @@ a {
   text-align: center;
   font-size: 1.5rem;
   color: black;
-  text-decoration: none;
   transition: all 0.3 ease-in-out;
+}
+
+.menu-links a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.527);
 }
 
 .menu-links li {
@@ -200,6 +204,7 @@ section {
 }
 
 .title {
+  color: #F6EEDF;
   font-size: 3rem;
   text-align: center;
 }
@@ -238,13 +243,9 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-.btn-color-1:hover,
-.btn-color-2:hover {
-  cursor: pointer;
-}
-
 .btn-color-1,
 .btn-color-2:hover {
+  cursor: pointer;
   background: rgb(53, 53, 53);
   color: white;
 }
@@ -255,10 +256,6 @@ section {
 
 .btn-color-2 {
   background: none;
-}
-
-.btn-color-2:hover {
-  border: rgb(255, 255, 255) 0.1rem solid;
 }
 
 .btn-container {
@@ -323,6 +320,14 @@ section {
   text-align: left;
 }
 
+h3 {
+  color: #F6EEDF;
+}
+
+.volunteer-experience div ul li {
+  color: #F6EEDF;
+}
+
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -341,7 +346,7 @@ section {
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: #F6EEDF;
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -392,7 +397,7 @@ article .icon {
 
 .project-title {
   margin: 1rem;
-  color: black;
+  color: #F6EEDF;
 }
 
 .project-btn {
